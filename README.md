@@ -2,7 +2,20 @@
 
 ## Project Description
 
-"ChipCheck Access Control" is a project aimed at creating an access control system using Arduino and electronic cards or chips for user identification. The system enables secure and convenient access to specific areas or resources.
+1. Overview and Task Analysis
+  The "ChipCheck Access Control" project aims to create an access control system using Arduino and electronic cards or chips for user identification. Its goal is to provide secure and convenient access to specific areas or resources. The project involves creating an integrated system that allows identity verification using electronic cards or chips and subsequent access control based on this identification.
+
+2. Justification of Chosen Technologies
+   Arduino was chosen as the platform for this project due to its ease of use, flexibility, and availability for most users. Additionally, it can integrate with various peripheral devices, allowing for easy expansion of the system's functionality.
+
+3. Simple Service Diagram and Connections
+  DIAGRAM
+
+4. Contribution Breakdown of Team Members to Solution Functionality
+  1. Mikita Kautsevich (Software Engineer): Implemented the main logic of the system in Arduino language, including reading and processing data from electronic cards and controlling access.
+  2. Maksym Tiutiunnyk (Software Engineer): Implemented the main logic of the system in Arduino language, including reading and processing data from electronic cards and controlling access.
+  3. Sofiia Pravytska (Hardware Engineer): Designed and built the physical module with a card reader and other peripheral devices. Also responsible for integrating hardware with Arduino.
+  4. Yaroslav Sabadash (Hardware Engineer): Designed and built the physical module with a card reader and other peripheral devices. Also responsible for integrating hardware with Arduino.
 
 ## Installation
 
@@ -34,7 +47,3 @@
 2. Arduino analyzes the information from the card and compares it with the database of authorized users.
 3. Upon a match, Arduino grants access and controls the door-opening mechanism.
 4. The user enters the premises.
-
-## License
-
-This project is licensed under the terms of the [MIT License](LICENSE).
