@@ -12,10 +12,10 @@
   DIAGRAM
 
 4. Contribution Breakdown of Team Members to Solution Functionality
-  1. Mikita Kautsevich (Software Engineer): Implemented the main logic of the system in Arduino language, including reading and processing data from electronic cards and controlling access.
-  2. Maksym Tiutiunnyk (Software Engineer): Implemented the main logic of the system in Arduino language, including reading and processing data from electronic cards and controlling access.
-  3. Sofiia Pravytska (Hardware Engineer): Designed and built the physical module with a card reader and other peripheral devices. Also responsible for integrating hardware with Arduino.
-  4. Yaroslav Sabadash (Hardware Engineer): Designed and built the physical module with a card reader and other peripheral devices. Also responsible for integrating hardware with Arduino.
+   - Maksym Tiutiunnyk (Software Engineer): Implemented the main logic of the system in Arduino language, including reading and processing data from electronic cards and controlling access.
+   - Mikita Kautsevich (Software Engineer): Implemented the main logic of the system in Arduino language, including reading and processing data from electronic cards and controlling access.
+   - Sofiia Pravytska (Hardware Engineer): Designed and built the physical module with a card reader and other peripheral devices. Also responsible for integrating hardware with Arduino.
+   - Yaroslav Sabadash (Hardware Engineer): Designed and built the physical module with a card reader and other peripheral devices. Also responsible for integrating hardware with Arduino.
 
 ## Installation
 
