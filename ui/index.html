@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Access Control with Arduino</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header class="access-control-header">
+    <div class="header-main-info">
+      <img src="./img/logo.png" alt="Your Logo" class="logo">
+      <h1 class="title-text">SNYM TEAM</h1>
+    </div>
+    <nav class="header-menu">
+      <ul>
+        <li><a href="#info">Info</a></li>
+        <li><a href="#how-its-works">How it Works</a></li>
+        <li><a href="#our-team">Our Team</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="door" id="door">
+      <div class="door-front">
+        <div class="knob"></div>
+      </div>
+      <div class="door-back">
+        <div class="rack"></div>
+        <div class="hat"></div>
+        <div class="jacket"></div>
+      </div>
+      <div class="door-mat"></div>
+    </div>
+
+    <div id="info" class="content access-control-content">
+      <h2 class="title">Access Control with Arduino</h2>
+      <p class="access-control-text">
+        Access Control with Arduino is a project aimed at controlling access to certain areas or resources using
+        Arduino-based devices. It involves setting up electronic locks or access control systems that can be managed and
+        monitored remotely.
+      </p>
+      <hr>
+      <div class="input-container access-control-input-container">
+        <label for="start_vertice" class="input-label access-control-input-label">Enter Username:</label>
+        <input id="start_vertice" class="input-field access-control-input-field" type="text" placeholder="Username" />
+      </div>
+      <div class="access-control-buttons">
+        <button class="access-control-button" id="displayBtn" onclick="login()">Login</button>
+        <button class="access-control-button" onclick="resetData()">Reset</button>
+      </div>
+      <div id="loginMessage" class="access-control-login-message"></div>
+    </div>
+  </div>
+  <div id="how-its-works" class="technology-info">
+    <h2>How Arduino Works</h2>
+    <div class="arduino-info-wrapper">
+      <!-- First image -->
+      <div class="arduino-info">
+        <img src="./img/arduino.png" alt="Arduino Image 1">
+        <h3>Initialization</h3>
+        <p>INFO...</p>
+      </div>
+      <!-- Second image -->
+      <div class="arduino-info">
+        <img src="./img/arduino.png" alt="Arduino Image 2">
+        <h3>Processing</h3>
+        <p>INFO...</p>
+      </div>
+      <!-- Third image -->
+      <div class="arduino-info">
+        <img src="./img/arduino.png" alt="Arduino Image 3">
+        <h3>Execution</h3>
+        <p>INFO...</p>
+      </div>
+    </div>
+  </div>
+  <div id="our-team" class="team-section">
+    <h2>Our Team</h2>
+    <div class="team-members">
+      <div class="team-member">
+        <img src="./img/man.png" alt="Team Member 1">
+        <p>Mikita Kautsevich</p>
+        <p>Software Engineer</p>
+      </div>
+      <div class="team-member">
+        <img src="./img/man.png" alt="Team Member 2">
+        <p>Maksym Tiutiunnyk</p>
+        <p>Software Engineer</p>
+      </div>
+      <div class="team-member">
+        <img src="./img/woman.png" alt="Team Member 3">
+        <p>Sofiia Pravytska</p>
+        <p>Hardware Engineer</p>
+      </div>
+      <div class="team-member">
+        <img src="./img/man.png" alt="Team Member 4">
+        <p>Yaroslav Sabadash</p>
+        <p>Hardware Engineer</p>
+      </div>
+    </div>
+  </div>
+  <div id="feedback" class="background">
+    <div class="container">
+      <h2>Feedback</h2>
+      <div class="screen">
+        <div class="screen-header">
+          <div class="screen-header-left">
+            <div class="screen-header-button close"></div>
+            <div class="screen-header-button maximize"></div>
+            <div class="screen-header-button minimize"></div>
+          </div>
+          <div class="screen-header-right">
+            <div class="screen-header-ellipsis"></div>
+            <div class="screen-header-ellipsis"></div>
+            <div class="screen-header-ellipsis"></div>
+          </div>
+        </div>
+        <div class="screen-body">
+          <div class="screen-body-item left">
+            <div class="app-title">
+              <span>CONTACT</span>
+              <span>US</span>
+            </div>
+            <div class="app-contact">CONTACT INFO : +421 854 214 751</div>
+          </div>
+          <div class="screen-body-item">
+            <div class="app-form">
+              <div class="app-form-group">
+                <input class="app-form-control" placeholder="NAME">
+              </div>
+              <div class="app-form-group">
+                <input class="app-form-control" placeholder="EMAIL">
+              </div>
+              <div class="app-form-group">
+                <input class="app-form-control" placeholder="CONTACT NO">
+              </div>
+              <div class="app-form-group message">
+                <input class="app-form-control" placeholder="MESSAGE">
+              </div>
+              <div class="app-form-group buttons">
+                <button class="app-form-button">CANCEL</button>
+                <button class="app-form-button">SEND</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <p>SNYM s.r.o.</p>
+    <p>All rights reserved 2024</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
