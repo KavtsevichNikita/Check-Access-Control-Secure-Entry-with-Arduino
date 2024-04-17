@@ -1,0 +1,6 @@
+flask
+requests
+flask_cors
+flask_socketio
+flask_sqlalchemy
+datetime
